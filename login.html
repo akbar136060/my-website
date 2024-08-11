@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عضویت</title>
+    <title>ورود</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,25 +15,22 @@
                 <li><a href="#">درباره ما</a></li>
                 <li><a href="contact.html">تماس با ما</a></li>
                 <li><a href="signup.html">عضویت</a></li>
-                <li><a href="login.html">ورود</a></li> <!-- لینک به صفحه ورود -->
+                <li><a href="login.html">ورود</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="signup-form">
-            <h2>عضویت در سایت</h2>
-            <form action="submit_signup.php" method="post"> <!-- اضافه کردن action برای ارسال داده‌ها -->
+        <section class="login-form">
+            <h2>ورود به سایت</h2>
+            <form action="submit_login.php" method="post"> <!-- اضافه کردن action برای ارسال داده‌ها -->
                 <label for="username">نام کاربری:</label>
                 <input type="text" id="username" name="username" required>
-
-                <label for="email">ایمیل:</label>
-                <input type="email" id="email" name="email" required>
 
                 <label for="password">رمز عبور:</label>
                 <input type="password" id="password" name="password" required>
 
-                <button type="submit">عضویت</button>
+                <button type="submit">ورود</button>
             </form>
         </section>
     </main>
