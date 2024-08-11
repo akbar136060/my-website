@@ -1,6 +1,6 @@
 /* بک‌گراند کلی سایت */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif
     background-image: url('background.jpg');
     background-size: cover;
     margin: 0;
@@ -67,3 +67,108 @@ nav ul li a:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* بک‌گراند برای کل صفحه عضویت */
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #fffbe0; /* زرد کمرنگ */
+    margin: 0;
+    padding: 0;
+}
+
+/* استایل فرم عضویت */
+.signup-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signup-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.signup-form button:hover {
+    background-color: #555;
+}
+
